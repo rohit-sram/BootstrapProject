@@ -37,3 +37,21 @@ body {
 .navbar-dark {
     background-color: #3282b1;
 }
+
+.about {
+    padding: 10px;
+    color: #0f0f0f;
+}
+
+.row-written {
+    padding: 15px;
+}
+
+.copyrightstyle {
+    padding-top: 30px;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
