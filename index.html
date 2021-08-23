@@ -24,10 +24,14 @@
             <a class="navbar-brand mr-auto" href="#"><img src="./img/logo.png" alt="logo" height='30' width='40'></a>
             <div id='Navbar' class='collapse navbar-collapse'>
                 <ul class='navbar-nav mr-auto'>
-                    <li class='nav-item active'><a class='nav-link' href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class='nav-item'><a class='nav-link' href="./aboutus.html"><span class="fa fa-info-circle fa-lg"></span> About</a></li>
-                    <li class='nav-item'><a class='nav-link' href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                    <li class='nav-item'><a class='nav-link' href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class='nav-item active'><a class='nav-link' href="#"><span class="fa fa-home fa-lg"></span>
+                            Home</a></li>
+                    <li class='nav-item'><a class='nav-link' href="./aboutus.html"><span
+                                class="fa fa-info-circle fa-lg"></span> About</a></li>
+                    <li class='nav-item'><a class='nav-link' href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
+                    </li>
+                    <li class='nav-item'><a class='nav-link' href="./contactus.html"><span
+                                class="fa fa-address-card fa-lg"></span> Contact</a></li>
 
                 </ul>
             </div>
@@ -42,10 +46,13 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm-6 align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src='./img/logo.png' class="img-fluid">
                 </div>
-                <div>
+                <div class='col-12 col-sm-3 btn-reserve align-self-center'>
+                    <div>
+                        <a class='btn btn-warning' role='button' href="#reserve">Reserve Table</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,10 +65,15 @@
             </div>
             <div class='col-12 col-sm order-sm-first col-md'>
                 <div class='media'>
-                    <img class='d-flex mr-3 img-thumbnail align-self-center' src="./img/uthappizza.png" alt="Uthappizza">
+                    <img class='d-flex mr-3 img-thumbnail align-self-center' src="./img/uthappizza.png"
+                        alt="Uthappizza">
                     <div class='media-body'>
-                        <h2>Uthappizza</h2>
-                        <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives,
+                        <h2>Uthappizza
+                            <span class='badge badge-danger'>HOT</span>
+                            <span class='badge badge-pill badge-secondary'>$4.99</span>
+                        </h2>
+                        <p class='d-none d-sm-block'>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola
+                            olives,
                             ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
                 </div>
@@ -73,10 +85,19 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class='col-12 col-sm col-md'>
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
-                    six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
-                    $19.99 per person </p>
+                <div class='media'>
+                    <div class='media-body'>
+                        <h2>Weekend Grand Buffet
+                            <span class='badge badge-danger'>NEW</span>
+                        </h2>
+                        <p class='d-none d-sm-block'>Featuring mouthwatering combinations with a choice of five different salads, six enticing
+                            appetizers,
+                            six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for
+                            just
+                            $19.99 per person </p>
+                    </div>
+                    <img src="./img/buffet.png" alt="Buffet" class='d-flex mr-3 img-thumbnail'>
+                </div>
             </div>
         </div>
 
@@ -90,12 +111,67 @@
                     <div class='media-body'>
                         <h2>Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <p>Award winning three-star Michelin chef with wide International experience having worked closely with
+                        <p class='d-none d-sm-block'>Award winning three-star Michelin chef with wide International experience having worked
+                            closely with
                             whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
-                            experiences. </p>            
+                            experiences. </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class='row row-content align-items-center'>
+            <div class='col-8 offset-2'>
+                <div class="card" id='reserve'>
+                    <h4 class="card-header bg-warning text-black">Reserve a Table</h4>
+                    <div class='card-body'>
+                        <form>
+                            <div class='form-group row'>
+                                <dt class='col-xs-4 col-sm-4 col-md-2'>Number of guests</dt> 
+                                <div class='col-xs-8 col-sm-8 col-md-10'>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="guestradio" value="option1">
+                                        <label class="form-check-label">1</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="guestradio" value="option2">
+                                        <label class="form-check-label">2</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="guestradio" value="option3">
+                                        <label class="form-check-label">3</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="guestradio" value="option4">
+                                        <label class="form-check-label">4</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="guestradio" value="option5">
+                                        <label class="form-check-label">5</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="guestradio" value="option6">
+                                        <label class="form-check-label">6</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <dt class='col-xs-4 col-sm-4 col-md-2'>Date and Time</dt>
+                                <div class='col-12 col-sm-4'>
+                                    <input type="input" class='form-control' name="date" id="date" placeholder='Date'>
+                                </div>
+                                <div class='col-12 col-sm-4'>
+                                    <input type="input" class='form-control' name="time" id="time" placeholder='Time'>
+                                </div>
+                            </div>
+                            <div class='form-group row submit-btn'>
+                                <div class='offset-1 offset-sm-1'>
+                                    <a class='btn btn-primary'>Reserve</a>                            
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
+            </div>
         </div>
     </div>
 
@@ -124,11 +200,16 @@
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class='text-center'>
-                        <a class='btn btn-social-icon btn-google' href="http://google.com/+"><i class='fa fa-google-plus'></i></a>
-                        <a class='btn btn-social-icon btn-facebook' href="http://www.facebook.com/profile.php?id="><i class='fa fa-facebook'></i></a>
-                        <a class='btn btn-social-icon btn-linkedin' href="http://www.linkedin.com/in/"><i class='fa fa-linkedin-square'></i></a>
-                        <a class='btn btn-social-icon btn-twitter' href="http://twitter.com/"><i class='fa fa-twitter'></i></a>
-                        <a class='btn btn-social-icon btn-google' href="http://youtube.com/"><i class='fa fa-youtube'></i></a>
+                        <a class='btn btn-social-icon btn-google' href="http://google.com/+"><i
+                                class='fa fa-google-plus'></i></a>
+                        <a class='btn btn-social-icon btn-facebook' href="http://www.facebook.com/profile.php?id="><i
+                                class='fa fa-facebook'></i></a>
+                        <a class='btn btn-social-icon btn-linkedin' href="http://www.linkedin.com/in/"><i
+                                class='fa fa-linkedin-square'></i></a>
+                        <a class='btn btn-social-icon btn-twitter' href="http://twitter.com/"><i
+                                class='fa fa-twitter'></i></a>
+                        <a class='btn btn-social-icon btn-google' href="http://youtube.com/"><i
+                                class='fa fa-youtube'></i></a>
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>

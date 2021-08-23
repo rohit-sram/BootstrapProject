@@ -5,7 +5,7 @@
 
 .row-content {
     margin: 0px auto; 
-    padding: 50px 0px 50px 0px;
+    padding: 40px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 350px;
 } 
@@ -54,4 +54,19 @@ body {
 body {
     padding: 50px 0px 0px 0px;
     z-index: 0;
+}
+
+.btn-reserve {
+    padding: 25px;
+    color: black;
+    width: 1000 px;
+}
+.submit-btn {
+    color: white;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
